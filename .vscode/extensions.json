@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "octref.vetur",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.npm-intellisense",
+    "csstools.postcss",
+    "esbenp.prettier-vscode",
+    "gruntfuggly.todo-tree",
+    "wakatime.vscode-wakatime"
+  ]
+}

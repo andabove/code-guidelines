@@ -14,7 +14,9 @@ We use Prettier with specific eslint configs - this is generally already setup w
 
 ## Code Editor
 
-By default we use [VSCode](https://code.visualstudio.com/) as our code editor, this is to take advantage of every developer using the same extension setup. See the .extensions folder in this repo for the essential extensions that we use, if you clone this repo VSCode will offer to install all the recommended extensions for you.
+By default we use [VSCode](https://code.visualstudio.com/) as our code editor, this is to take advantage of every developer using the same extension setup. See the .vscode folder in this repo for the essential extensions that we use, if you clone this repo VSCode will offer to install all the recommended extensions for you.
+
+There is also a settings.json file in the folder, this allows everyone to have the base prettier setup and some other specific settings to our repos.
 
 # HTML/CSS Styles
 
