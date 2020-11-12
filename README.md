@@ -6,9 +6,36 @@
 
 > These are some general coding styles that should be adhered to
 
+## Formatters
+
 Using formatters when developing saves time and keeps a consistent style throughout the entire codebase.
 
-Currently our code formatting stack uses Prettier with eslint configs - this is generally already setup when using either of the templates.
+We use Prettier with specific eslint configs - this is generally already setup when using either of the templates.
+
+## Code Editor
+
+By default we use [VSCode](https://code.visualstudio.com/) as our code editor, this is to take advantage of every developer using the same extension setup. See the .extensions folder in this repo for the essential extensions that we use, if you clone this repo VSCode will offer to install all the recommended extensions for you.
+
+# HTML/CSS Styles
+
+## Alternative text
+
+> Alternative text, or alt text, is read out by screen readers or displayed if an image does not load or if images have been switched off.
+
+All images, except decorative images, must have alt text that:
+
+- tells people what information the image provides
+- describes the content and function of the image
+- is specific, meaningful and concise
+
+Use normal punctuation, like commas and full stops, so the text is easy to read and understand.
+
+Do not:
+
+- include the name of the photographer or person who created the image
+- start with ‘Image of’, ‘Graphic of’ or ‘Photo of’
+- repeat information from the page
+- include extra information not on the page
 
 # Git Commits
 
@@ -77,24 +104,3 @@ Branch naming must follow the same prefixes that are outlined in the '_git commi
 # Pull requests
 
 When creating a pull request, the title must follow the same as the git commit conventions but must always have a scope attached and then the description to be an overall review of what has changed
-
-# Misc
-
-## Alternative text
-
-> Alternative text, or alt text, is read out by screen readers or displayed if an image does not load or if images have been switched off.
-
-All images, except decorative images, must have alt text that:
-
-- tells people what information the image provides
-- describes the content and function of the image
-- is specific, meaningful and concise
-
-Use normal punctuation, like commas and full stops, so the text is easy to read and understand.
-
-Do not:
-
-- include the name of the photographer or person who created the image
-- start with ‘Image of’, ‘Graphic of’ or ‘Photo of’
-- repeat information from the page
-- include extra information not on the page
