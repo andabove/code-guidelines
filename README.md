@@ -95,13 +95,13 @@ Init should only be used once when creating the project
 
 # Branch Naming
 
-Branch naming must follow the same prefixes that are outlined in the '_git commits_' section but instead of the prefix being followed by a scope, the prefix must be hyphenated and the overall area afterwards. Below are some examples of acceptable branch names;
+Branch naming must follow the same prefixes that are outlined in the '_git commits_' section but instead of the prefix being followed by a scope, the prefix must be followed by the linear branch name which can be found in assigned linear task. Below are some examples of acceptable branch names
 
-    $ fix-filtering-dates
+    $ feat/rcco-100
 
-    $ feat-disable-previous-dates
+    $ fix/rcco-100
 
-    $ chore-update-analytics
+    $ chore/rcco-100
 
 # Pull requests
 
